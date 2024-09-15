@@ -9,7 +9,8 @@ class Category(models.Model):
         db_table = 'Category'
 
     
-# Define a Product model
+
+  
 class Products(models.Model):
     name = models.CharField(max_length=255)
     description = models.TextField(blank=True)
